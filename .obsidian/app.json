@@ -1,0 +1,15 @@
+{
+  "promptDelete": true,
+  "trashOption": "system",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "notes",
+  "attachmentFolderPath": "./附件",
+  "focusNewTab": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
