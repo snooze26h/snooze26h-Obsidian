@@ -13,6 +13,7 @@
     "NOTES": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "目录.md",
         "snooze26h's荒废人生指南",
@@ -25,25 +26,24 @@
         "重装系统必备and妙妙小软件",
         "模板",
         "插件效果示例"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/插件效果示例": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "科研示意图.excalidraw.md",
         "科研流程.canvas"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/模板": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "日记模板.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/目录.md": {
       "isPinned": false,
@@ -64,36 +64,37 @@
     "PAPERS": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "agent-memory",
         "PLASMA",
         "One-to-More"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/One-to-More": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "assets",
         "One-to-More- High-Fidelity Training-Free Anomaly Generation  with Attention Control.pdf",
         "One-to-More- High-Fidelity Training-Free Anomaly Generation  with Attention Control-CN.md",
         "O2MAG.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/PLASMA": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "NOTES.md",
         "FAST AND INTERPRETABLE PROTEIN SUBSTRUCTURE ALIGNMENT VIA OPTIMAL TRANSPORT.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Zep - A Temporal Knowledge Graph Architecture for Agent Memory",
         "REMem - Reasoning with Episodic Memory in Language Agents",
@@ -111,8 +112,7 @@
         "AriGraph - Learning Knowledge Graph World Models with Episodic Memory for LLM Agents",
         "A Survey on the Memory Mechanism of Large Language Model based Agents",
         "A Survey of Agent Memory in the Second Half - Towards Self-Evolving and Long-Horizon Agents"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/One-to-More/O2MAG.md": {
       "isPinned": false,
@@ -129,6 +129,7 @@
     "PAPERS/One-to-More/assets": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fig9.png",
         "fig8.png",
@@ -140,8 +141,7 @@
         "fig2.png",
         "fig10.png",
         "fig1.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/PLASMA/FAST AND INTERPRETABLE PROTEIN SUBSTRUCTURE ALIGNMENT VIA OPTIMAL TRANSPORT.pdf": {
       "isPinned": false,
@@ -154,162 +154,162 @@
     "PAPERS/agent-memory/A Survey of Agent Memory in the Second Half - Towards Self-Evolving and Long-Horizon Agents": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "NOTES.md",
         "A Survey of Agent Memory in the Second Half - Towards Self-Evolving and Long-Horizon Agents.pdf",
         "A Survey of Agent Memory in the Second Half - Towards Self-Evolving and Long-Horizon Agents-CN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/A Survey on the Memory Mechanism of Large Language Model based Agents": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "NOTES.md",
         "A Survey on the Memory Mechanism of Large Language Model based Agents.pdf",
         "A Survey on the Memory Mechanism of Large Language Model based Agents-CN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/AriGraph - Learning Knowledge Graph World Models with Episodic Memory for LLM Agents": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "NOTES.md",
         "AriGraph - Learning Knowledge Graph World Models with Episodic Memory for LLM Agents.pdf",
         "AriGraph - Learning Knowledge Graph World Models with Episodic Memory for LLM Agents-CN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/CAM - A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "NOTES.md",
         "CAM - A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension.pdf",
         "CAM - A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension-CN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "assets",
         "NOTES.md",
         "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions-arXiv-v4.pdf",
         "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions-ICLR-2026.pdf",
         "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions-CN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/From RAG to Memory - Non-Parametric Continual Learning for Large Language Models": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "NOTES.md",
         "From RAG to Memory - Non-Parametric Continual Learning for Large Language Models.pdf",
         "From RAG to Memory - Non-Parametric Continual Learning for Large Language Models-CN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/GFM-RAG - Graph Foundation Model for Retrieval Augmented Generation": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "GFM-RAG - Graph Foundation Model for Retrieval Augmented Generation.pdf",
         "GFM-RAG - Graph Foundation Model for Retrieval Augmented Generation-CN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/Graph-based Agent Memory - Taxonomy, Techniques, and Applications": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "NOTES.md",
         "Graph-based Agent Memory - Taxonomy, Techniques, and Applications.pdf",
         "Graph-based Agent Memory - Taxonomy, Techniques, and Applications-CN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/HippoRAG - Neurobiologically Inspired Long-Term Memory for Large Language Models": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "NOTES.md",
         "HippoRAG - Neurobiologically Inspired Long-Term Memory for Large Language Models.pdf",
         "HippoRAG - Neurobiologically Inspired Long-Term Memory for Large Language Models-CN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/MemEvolve - Meta-Evolution of Agent Memory Systems": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "NOTES.md",
         "MemEvolve - Meta-Evolution of Agent Memory Systems.pdf",
         "MemEvolve - Meta-Evolution of Agent Memory Systems-CN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/Memory for Large Language Models": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "NOTES.md",
         "Memory for Large Language Models.pdf",
         "Memory for Large Language Models-CN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/Memory in the LLM Era - Modular Architectures and Strategies in a Unified Framework": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "NOTES.md",
         "Memory in the LLM Era - Modular Architectures and Strategies in a Unified Framework.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/Memory is Reconstructed, Not Retrieved - Graph Memory for LLM Agents": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "NOTES.md",
         "Memory is Reconstructed, Not Retrieved - Graph Memory for LLM Agents.pdf",
         "Memory is Reconstructed, Not Retrieved - Graph Memory for LLM Agents-CN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/PlugMem - A Task-Agnostic Plugin Memory Module for LLM Agents": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "PlugMem - A Task-Agnostic Plugin Memory Module for LLM Agents.pdf",
         "PlugMem - A Task-Agnostic Plugin Memory Module for LLM Agents-CN.md",
         "NOTES.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/REMem - Reasoning with Episodic Memory in Language Agents": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "REMem - Reasoning with Episodic Memory in Language Agents.pdf",
         "REMem - Reasoning with Episodic Memory in Language Agents-CN.md",
         "NOTES.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/Zep - A Temporal Knowledge Graph Architecture for Agent Memory": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Zep - A Temporal Knowledge Graph Architecture for Agent Memory.pdf",
         "Zep - A Temporal Knowledge Graph Architecture for Agent Memory-CN.md",
         "NOTES.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/One-to-More/assets/fig1.png": {
       "isPinned": false,
@@ -418,11 +418,11 @@
     "PAPERS/agent-memory/Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions/assets": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "MemoryArena-1_2.png",
         "MemoryArena-1_1.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PAPERS/agent-memory/From RAG to Memory - Non-Parametric Continual Learning for Large Language Models/From RAG to Memory - Non-Parametric Continual Learning for Large Language Models-CN.md": {
       "isPinned": false,
@@ -559,31 +559,31 @@
     "PROJECTS": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "PLASMA",
         "NMR"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PROJECTS/NMR": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "reports",
         "experiments",
         "current",
         "NMR.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PROJECTS/PLASMA": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "experiments",
         "PLASMA.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PROJECTS/NMR/NMR.md": {
       "isPinned": false,
@@ -592,32 +592,32 @@
     "PROJECTS/NMR/current": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "best.md",
         "baseline.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PROJECTS/NMR/experiments": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ucbshift_nonrefdb_results.md",
         "sample_view阶段总结.md",
         "ENSEMBLE_EXPANSION_SUMMARY.md",
         "2026-03-30.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PROJECTS/NMR/reports": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "周报.md",
         "readout_head_pretrain阶段报告.md",
         "NMR_stage_summary_2026-03-24.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PROJECTS/PLASMA/PLASMA.md": {
       "isPinned": false,
@@ -626,10 +626,10 @@
     "PROJECTS/PLASMA/experiments": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "PLASMA_7backbone_实验复现.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "PROJECTS/NMR/current/baseline.md": {
       "isPinned": false,
@@ -674,33 +674,33 @@
     "NOTES/重装系统必备and妙妙小软件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "我说白了，没有个好看的终端，怎么才能干劲十足呢",
         "妈的，我是最了解重装系统之人（往事不必再提～",
         "哎呦我去都已经21世纪了，怎么还有人连Word不需要AI来辅助呢",
         "妙妙小软件，一用一个不吱声",
         "你还在用古法搜索吗"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/当你离50万只有0.01公分": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "哇，项目好牛啊！可是不是我的",
         "我是不会告诉你我用过梯子的"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/因为买不起正价妄图通过各种账号以及渠道满足自己对模型的猎奇心": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "记录一下Fiat万事达卡都能用来做什么.md",
         "【转载】2026年土耳其区Apple ID注册教程及避坑指南.md",
         "49块钱3个月的SuperGrok实在太香了，亲测印度区app store还可以薅.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/因为买不起正价妄图通过各种账号以及渠道满足自己对模型的猎奇心/49块钱3个月的SuperGrok实在太香了，亲测印度区app store还可以薅.md": {
       "isPinned": false,
@@ -717,43 +717,43 @@
     "NOTES/自以为喜欢科研可笑可笑": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "我真没有艺术细菌，救命！",
         "没有大模型我可怎么活呀？大佬快教我Auto Research",
         "始终在积累找论文和读论文方法的路上",
         "额，我语文真的偏科呀",
         "妄图从大佬的科研方法里面找到我苟活的经验"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/是它让我连Hello World都不会写": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "姜还是老的辣，斯哈",
         "不要往Agent里面加屎了好不好qwq",
         "我怎么连Agent都不会用？谁来教教我",
         "妄图以凡人之力开发Agent",
         "斯给哦"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/把自己以为有用的知识像屎一样摊出来": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "收藏和整理起来的屎",
         "Obsidian与知屎库"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/snooze26h's荒废人生指南": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "2026-08-26.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/snooze26h's荒废人生指南/2026-08-26.md": {
       "isPinned": false,
@@ -762,13 +762,13 @@
     "NOTES/发烂发臭aaa不想活啦spa": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "闲来无事，开一个 配眼镜相关问题答疑贴.md",
         "配镜方案求助.md",
         "最近想在线上配一副眼镜 想问下大佬们有什么需要注意的吗.md",
         "(长期更新)佬友们，搞钱吧！动起来，让自己的生活好起来！.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/发烂发臭aaa不想活啦spa/(长期更新)佬友们，搞钱吧！动起来，让自己的生活好起来！.md": {
       "isPinned": false,
@@ -789,12 +789,12 @@
     "NOTES/重装系统必备and妙妙小软件/你还在用古法搜索吗": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "推荐几个你认为可以给到夯的浏览器插件.md",
         "佬友们都用什么浏览器.md",
         "【浏览器增强】最好用的油猴脚本汇总.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/重装系统必备and妙妙小软件/你还在用古法搜索吗/【浏览器增强】最好用的油猴脚本汇总.md": {
       "isPinned": false,
@@ -811,14 +811,14 @@
     "NOTES/重装系统必备and妙妙小软件/妙妙小软件，一用一个不吱声": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "赛博电子人的软件库 - 一些个人常用软件分享 (2025-09-22).md",
         "求推荐几个mac上好用的画流程图的工具.md",
         "我的Windows上必备的50款软件.md",
         "关于”开个帖子，大家一起来推荐Mac 下非常好用的软件吧”佬友们的分享汇总.md",
         "分享一些 Win+Mac 破解资源 源头站 [ CorelDRAW Adobe ].md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/重装系统必备and妙妙小软件/妙妙小软件，一用一个不吱声/分享一些 Win+Mac 破解资源 源头站 [ CorelDRAW Adobe ].md": {
       "isPinned": false,
@@ -843,12 +843,12 @@
     "NOTES/重装系统必备and妙妙小软件/哎呦我去都已经21世纪了，怎么还有人连Word不需要AI来辅助呢": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "昨天做的Office插件（Claude in Word！）今天打磨得差不多了，还是不选择闭源了吧，没什么意思.md",
         "ai快速排版word文章的一个通用思路，字体／字号／缩进什么的都可以，数学公式也可以正确的渲染.md",
         "Claude Office Addon.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/重装系统必备and妙妙小软件/哎呦我去都已经21世纪了，怎么还有人连Word不需要AI来辅助呢/Claude Office Addon.md": {
       "isPinned": false,
@@ -865,13 +865,13 @@
     "NOTES/重装系统必备and妙妙小软件/妈的，我是最了解重装系统之人（往事不必再提～": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "整理了一下我重装系统的步骤.md",
         "一个超级无敌强迫症的重装系统步骤.md",
         "【开源自荐】别让你的电脑变成垃圾场！v2.7.2.2修复已知bug.md",
         "Windows 重装系统后应该干什么？我整理了下自己的操作流程。.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/重装系统必备and妙妙小软件/妈的，我是最了解重装系统之人（往事不必再提～/Windows 重装系统后应该干什么？我整理了下自己的操作流程。.md": {
       "isPinned": false,
@@ -892,14 +892,14 @@
     "NOTES/重装系统必备and妙妙小软件/我说白了，没有个好看的终端，怎么才能干劲十足呢": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "思考 Windows Terminal 替代品？.md",
         "分享自己日常使用 WSL 遇到的问题及方案【持续更新，2026-01-21】.md",
         "佬友们平时主要用什么终端？.md",
         "你们的命令行有我的好看吗？.md",
         "【美化的最后是默认】关于windows系统的终端美化教程…能叫教程么？.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/重装系统必备and妙妙小软件/我说白了，没有个好看的终端，怎么才能干劲十足呢/【美化的最后是默认】关于windows系统的终端美化教程…能叫教程么？.md": {
       "isPinned": false,
@@ -924,12 +924,12 @@
     "NOTES/自以为喜欢科研可笑可笑/妄图从大佬的科研方法里面找到我苟活的经验": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "研究生科研工具与网站（个人推荐）.md",
         "【请教】目前研0，没有科研经验，想了解一些学习方法和技巧.md",
         "Idea 坟场：那些还没死透的拍脑袋想法.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/自以为喜欢科研可笑可笑/妄图从大佬的科研方法里面找到我苟活的经验/Idea 坟场：那些还没死透的拍脑袋想法.md": {
       "isPinned": false,
@@ -946,6 +946,7 @@
     "NOTES/自以为喜欢科研可笑可笑/额，我语文真的偏科呀": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "本科生／研究生 论文辅助大合集.md",
         "感觉非常之恶心的写作.md",
@@ -953,8 +954,7 @@
         "分享一个极其好用的论文skill.md",
         "一个月全力打造，开源网站助您快速完成论文，集成 ChatGPT 实现真实文献引用.md",
         "【授人以渔】当我在审稿的时候我想些什么.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/自以为喜欢科研可笑可笑/额，我语文真的偏科呀/【授人以渔】当我在审稿的时候我想些什么.md": {
       "isPinned": false,
@@ -983,14 +983,14 @@
     "NOTES/自以为喜欢科研可笑可笑/始终在积累找论文和读论文方法的路上": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "阅读文献的小tips.md",
         "【论文学习贴讨论】各位硕博佬友，如何紧跟方向前沿，快速检索文献.md",
         "[科研] 文献解读提示词.md",
         "[开源] Paper Search CLI：基于 Paper-Search MCP 重构成 CLI + Skill 的多来源论文检索工具.md",
         "2026年了，目前最好用的pdf翻译工具是什么？.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/自以为喜欢科研可笑可笑/始终在积累找论文和读论文方法的路上/2026年了，目前最好用的pdf翻译工具是什么？.md": {
       "isPinned": false,
@@ -1015,6 +1015,7 @@
     "NOTES/自以为喜欢科研可笑可笑/没有大模型我可怎么活呀？大佬快教我Auto Research": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "科研相关skills分享，持续更新中.md",
         "科研求助：求科研大佬们好用的codex的skill分享.md",
@@ -1024,8 +1025,7 @@
         "【开源推荐】DeepTutor：港大数据智能实验室出品的 AI 学习助手.md",
         "【开源推广】作为一名在读博士生，我在日常是如何与 AI 协作的？——ai-collab-playbook（26.6.8版）.md",
         "Claude Code是真心好用，原生工具也很丰富，直接给我用爽了，爽！再次感谢各位公益站的大佬，感谢！！！.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/自以为喜欢科研可笑可笑/没有大模型我可怎么活呀？大佬快教我Auto Research/Claude Code是真心好用，原生工具也很丰富，直接给我用爽了，爽！再次感谢各位公益站的大佬，感谢！！！.md": {
       "isPinned": false,
@@ -1062,11 +1062,11 @@
     "NOTES/自以为喜欢科研可笑可笑/我真没有艺术细菌，救命！": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "分享一个AI科研绘图神器！.md",
         "[开源]科研图表(曲线图)数据提取工具(导出excle数据).md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/自以为喜欢科研可笑可笑/我真没有艺术细菌，救命！/[开源]科研图表(曲线图)数据提取工具(导出excle数据).md": {
       "isPinned": false,
@@ -1079,6 +1079,7 @@
     "NOTES/当你离50万只有0.01公分/我是不会告诉你我用过梯子的": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "分享一个非常适合小白的链式代理(无脑使用).md",
         "简谈代理检测与风控科普.md",
@@ -1087,8 +1088,7 @@
         "手把手带你搞懂 Clash Meta 的 DNS 分流，从此配置不求人！.md",
         "《从0搭建一个自用机场》.md",
         "Clash 小白的 VPS 落地 + 机场中转的链式代理配置过程.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/当你离50万只有0.01公分/我是不会告诉你我用过梯子的/Clash 小白的 VPS 落地 + 机场中转的链式代理配置过程.md": {
       "isPinned": false,
@@ -1121,6 +1121,7 @@
     "NOTES/当你离50万只有0.01公分/哇，项目好牛啊！可是不是我的": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "盘点那些免费的Docker容器（1）.md",
         "个人开发者教程（没钱）.md",
@@ -1129,8 +1130,7 @@
         "【开源自荐】 个人导航站, 托管在cloudflare上的轻量化导航.md",
         "【开源自荐3】Nginx可视化配置编辑器.md",
         "[重要更新]什么叫你的BitWarden是跑在Cloudflare上的？教你薅干大善人！（现在无需手动建表）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/当你离50万只有0.01公分/哇，项目好牛啊！可是不是我的/[重要更新]什么叫你的BitWarden是跑在Cloudflare上的？教你薅干大善人！（现在无需手动建表）.md": {
       "isPinned": false,
@@ -1163,14 +1163,14 @@
     "NOTES/把自己以为有用的知识像屎一样摊出来/Obsidian与知屎库": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "我的本地知识库系统开源啦～～～（支持MCP）.md",
         "【开源自荐】obsidian-smart-workflow 打造 Obsidian 智能工作流.md",
         "【开源自荐】YOLO——可能是目前最棒的 Obsidian AI 笔记插件？.md",
         "[Obisidian同步插件推荐]fast-note-sync同步插件安装及配置教程.md",
         "Obsidian插件分享.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/把自己以为有用的知识像屎一样摊出来/Obsidian与知屎库/Obsidian插件分享.md": {
       "isPinned": false,
@@ -1195,6 +1195,7 @@
     "NOTES/把自己以为有用的知识像屎一样摊出来/收藏和整理起来的屎": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "用 AI 整理了一下我乱成一锅粥的 Chrome 书签，效果出乎意料.md",
         "求教：QQ（手机）聊天记录的导出方法／工具.md",
@@ -1202,8 +1203,7 @@
         "分享自己收集的各式网站.md",
         "【长期帖】来推荐你心目中的精华神帖吧.md",
         "【小白自用】Linux.do 收藏书签分类整理.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/把自己以为有用的知识像屎一样摊出来/收藏和整理起来的屎/【小白自用】Linux.do 收藏书签分类整理.md": {
       "isPinned": false,
@@ -1232,6 +1232,7 @@
     "NOTES/是它让我连Hello World都不会写/斯给哦": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "精选 Skills 推荐：10 个让 Coding Agent 如虎添翼的Skills + 优质来源分享.md",
         "推荐你觉得好用的skills ，让claude更加伟大！.md",
@@ -1242,8 +1243,7 @@
         "【SKILL 设计的最佳实践】什么是SKILL？怎么快速写一个优秀的SKILL？.md",
         "[开源自荐]我整合了340+个skills，19+个高星vibecoding项目到一个智能路由治理skills包中.md",
         "Vibe Coding：通用高质量 Skills 合集.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/是它让我连Hello World都不会写/斯给哦/Vibe Coding：通用高质量 Skills 合集.md": {
       "isPinned": false,
@@ -1284,12 +1284,12 @@
     "NOTES/是它让我连Hello World都不会写/妄图以凡人之力开发Agent": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "想学习agent开发，不知道怎么学.md",
         "GenericAgent——复旦团队研发 ｜ 仅仅~3K 行代码 Self-Evolving Agent.md",
         "10年AI研究，我想说说：为什么现在很多Agent框架的“记忆”方案，可能从一开始就走偏了.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/是它让我连Hello World都不会写/妄图以凡人之力开发Agent/10年AI研究，我想说说：为什么现在很多Agent框架的“记忆”方案，可能从一开始就走偏了.md": {
       "isPinned": false,
@@ -1306,6 +1306,7 @@
     "NOTES/是它让我连Hello World都不会写/我怎么连Agent都不会用？谁来教教我": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "目前佬们cc有用的啥记忆系统呀.md",
         "最近在站里看见了很多吐槽codex的帖子，我分享一些自己的使用经验给各位参考.md",
@@ -1316,8 +1317,7 @@
         "【Claude Code 工作流进阶：贰】CCW 高级特性完全指南：Issue 工作流、智能编排与多模型协同实战.md",
         "【AI编程】拒绝上下文过载：如何让Claude Code学会“渐进式阅读”.md",
         "Claude code 全局提示词,规则,skills配置 2026年8月4日.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/是它让我连Hello World都不会写/我怎么连Agent都不会用？谁来教教我/Claude code 全局提示词,规则,skills配置 2026年8月4日.md": {
       "isPinned": false,
@@ -1358,6 +1358,7 @@
     "NOTES/是它让我连Hello World都不会写/不要往Agent里面加屎了好不好qwq": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "一人一个高频使用的mcp.md",
         "【开源】首个支持 Agent Skills 的浏览器扩展 Tactus ｜ 取之社区、回馈社区，首个开源项目献给L站！.md",
@@ -1368,8 +1369,7 @@
         "[开源] ContextWeaver 本地代码库语义检索工具，目标是ace平替.md",
         "Cometix Codex ｜ 像是CC的Codex.md",
         "Claudix・虽弱犹诚，匠心初成.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/是它让我连Hello World都不会写/不要往Agent里面加屎了好不好qwq/Claudix・虽弱犹诚，匠心初成.md": {
       "isPinned": false,
@@ -1410,14 +1410,14 @@
     "NOTES/是它让我连Hello World都不会写/姜还是老的辣，斯哈": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "还在为年终报告难受吗？ 一条指令, 基于代码仓库生成年终总结汇报.md",
         "刚注册两天，但已经在L站与I站逛了一两个月了，把自己全部的所学与经验分享给大家.md",
         "【重生之我在 L 站做前端, 1 】2602年，人在意的前端由谁来拯救.md",
         "《以LLM推理的速度ship代码》.md",
         "vibe coding心得，让AI闯关式编程，成功率提升400%.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "NOTES/是它让我连Hello World都不会写/姜还是老的辣，斯哈/vibe coding心得，让AI闯关式编程，成功率提升400%.md": {
       "isPinned": false,
