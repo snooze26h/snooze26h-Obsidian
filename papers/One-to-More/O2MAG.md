@@ -436,9 +436,9 @@ $$
 $$
 
 
-## 3. 理解论文所需的基础概念
+## 3. 理解论文所需的基础概念（妈的不懂得有点多）
 
-### 3.1. 图像
+### 图像
 
 一张 RGB 图像可以表示为：
 
@@ -454,7 +454,7 @@ $$
 2. $W$ 是图像宽度。
 3. 最后的 3 表示红、绿、蓝三个颜色通道。
 
-### 3.2. 像素空间与特征空间
+### 像素空间与特征空间
 
 像素空间直接表示颜色数值，但神经网络内部通常不一直处理原始 RGB。经过卷积、归一化、激活函数和 attention 后，会得到中间特征图：
 
@@ -466,8 +466,9 @@ $$
 
 其中：
 
-1. $C$ 是特征通道数。
-2. $h,w$ 是当前层的空间分辨率。
+1. $C$ 是特征通道数。（特征）（不过为什么是行呢？）
+2. $h,w$ 是当前层的空间分辨率。（种类）
+3. B 就是批次呗（那就是没什么用）
 
 这些特征通道不再直接对应红、绿、蓝，而是网络学习到的模式。某些通道可能对以下内容敏感：
 
@@ -497,318 +498,12 @@ $$
 此时：
 
 1. 每一行对应一个空间位置或 patch。
-2. 每一列对应一个隐藏特征维度。
+2. 每一列对应一个隐藏特征维度。（666 又变列了）
 
-Self-attention 矩阵可能具有：
 
-$$
-4096\times4096
-$$
 
-个位置关系，单个注意力头就包含超过一千六百万个分数。
 
-### 3.3. embedding
-
-
-
-论文中的 prompt embedding 不是一个简单向量，而是 token 序列对应的矩阵：
-
-$$
-e
-\in
-\mathbb R^{m\times d_\tau}.
-$$
-
-其中：
-
-1. $m$ 是 token 数量。
-2. $d_\tau$ 是每个 token 的 embedding 维度。
-
-### 3.4. 编码器与解码器
-编码器负责把原始输入变成更紧凑的表示：
-
-$$
-z
-=
-\mathcal E(x).
-$$
-
-解码器负责把表示恢复到原始空间：
-
-$$
-\tilde x
-=
-\mathcal D(z).
-$$
-
-在 Stable Diffusion 中：
-1. VAE encoder 把 RGB 图像压缩到潜空间。
-2. 扩散模型在潜空间加噪和去噪。
-3. VAE decoder 把最终潜变量解码回 RGB 图像。
-
-### 3.5. VAE 是什么
-
-VAE 的全称是 Variational Autoencoder，变分自编码器。
-
-需要注意，理解 O2MAG 不要求掌握 VAE 的所有训练细节。最重要的是：Stable Diffusion 并不是在原始像素上运行扩散，而是在 VAE 压缩后的 latent 上运行。
-
-### 3.6. Stable Diffusion 的潜空间
-
-论文写为：
-
-$$
-z
-=
-\mathcal E(x),
-\qquad
-z
-\in
-\mathbb R^{h\times w\times c}.
-$$
-
-对于常见的 $512\times512$ 输入，Stable Diffusion v1.x 的 latent 常见尺寸约为：
-
-$$
-4\times64\times64.
-$$
-
-与原始图像相比，空间长宽各缩小约 8 倍：
-
-$$
-512/8=64.
-$$
-
-扩散过程处理的数值数量从：
-
-$$
-512\times512\times3
-$$
-
-降低到大约：
-
-$$
-64\times64\times4.
-$$
-
-这样做可以显著降低计算量。
-
-这里的 latent 不是简单缩小后的 RGB 图。四个 latent 通道是 VAE 学习出的压缩表示，包含局部结构、颜色、纹理和语义信息。
-
-### 3.7. 高斯分布与高斯噪声
-
-扩散模型不断加入高斯噪声。
-
-标准高斯变量写作：
-
-$$
-\epsilon
-\sim
-\mathcal N(0,I).
-$$
-
-其中：
-
-1. 均值为 0。
-2. 协方差为单位矩阵 $I$。
-3. 每个维度通常独立采样。
-
-直观上，高斯噪声是一张没有可见物体结构的随机数图。
-
-扩散模型的思想是：
-
-1. 学习如何从不同噪声程度的图像中预测噪声。
-2. 在生成阶段不断减去预测噪声。
-3. 最终从随机或反演得到的高噪声 latent 恢复图像。
-
-### 3.8. 前向扩散过程
-
-定义每一步加入的噪声强度：
-
-$$
-\beta_t
-\in
-(0,1).
-$$
-
-再定义：
-
-$$
-\alpha_t
-=
-1-\beta_t,
-$$
-
-以及累积乘积：
-
-$$
-\bar\alpha_t
-=
-\prod_{s=1}^{t}
-\alpha_s.
-$$
-
-单步前向扩散写为：
-
-$$
-q(z_t\mid z_{t-1})
-=
-\mathcal N
-\left(
-\sqrt{\alpha_t}z_{t-1},
-(1-\alpha_t)I
-\right).
-$$
-
-更常用的是直接从干净 latent $z_0$ 采样任意时间步：
-
-$$
-q(z_t\mid z_0)
-=
-\mathcal N
-\left(
-\sqrt{\bar\alpha_t}z_0,
-(1-\bar\alpha_t)I
-\right).
-$$
-
-通过重参数化，可以写成：
-
-$$
-\begin{aligned}
-z_t
-={}&
-\sqrt{\bar\alpha_t}
-\,z_0
-\\
-&+
-\sqrt{1-\bar\alpha_t}
-\,\epsilon,
-\qquad
-\epsilon
-\sim
-\mathcal N(0,I).
-\end{aligned}
-$$
-
-当 $t$ 较小时：
-
-$$
-\bar\alpha_t
-\approx
-1,
-$$
-
-所以 $z_t$ 中保留较多原图信息。
-
-当 $t$ 较大时：
-
-$$
-\bar\alpha_t
-\approx
-0,
-$$
-
-所以 $z_t$ 更接近高斯噪声。
-
-### 3.9. 反向扩散与噪声预测网络
-
-扩散模型的 U-Net 接收：
-
-$$
-z_t,
-\quad
-t,
-\quad
-e,
-$$
-
-输出预测噪声：
-
-$$
-\hat\epsilon
-=
-\epsilon_\theta
-\left(
-z_t,t,e
-\right).
-$$
-
-其中：
-
-1. $z_t$ 是当前带噪 latent。
-2. $t$ 告诉模型当前噪声程度。
-3. $e$ 是文本条件。
-4. $\theta$ 是 U-Net 参数。
-
-模型训练时知道真正加入的噪声 $\epsilon$，所以可以最小化：
-
-$$
-\mathcal L
-=
-\left\|
-\epsilon
--
-\epsilon_\theta(z_t,t,e)
-\right\|_2^2.
-$$
-
-为什么预测噪声可以恢复干净 latent？由前向公式：
-
-$$
-z_t
-=
-\sqrt{\bar\alpha_t}z_0
-+
-\sqrt{1-\bar\alpha_t}
-\epsilon.
-$$
-
-移项得到：
-
-$$
-\sqrt{\bar\alpha_t}z_0
-=
-z_t
--
-\sqrt{1-\bar\alpha_t}
-\epsilon.
-$$
-
-所以：
-
-$$
-z_0
-=
-\frac{
-z_t
--
-\sqrt{1-\bar\alpha_t}
-\epsilon
-}{
-\sqrt{\bar\alpha_t}
-}.
-$$
-
-将真实噪声替换为模型预测：
-
-$$
-\hat z_0
-=
-\frac{
-z_t
--
-\sqrt{1-\bar\alpha_t}
-\epsilon_\theta(z_t,t,e)
-}{
-\sqrt{\bar\alpha_t}
-}.
-$$
-
-因此，噪声预测越准确，恢复的干净 latent 越准确。
-
-### 3.10. U-Net 是什么
-
-U-Net 最初用于医学图像分割，其结构像字母 U。
+### U-Net 是什么
 
 它包含：
 
@@ -851,38 +546,14 @@ $$
 
 论文说“产品结构在去噪早期形成”，不等于“要在 U-Net 的早期层进行 grafting”。实际上，它在去噪第 5 步后开始编辑，但选的是 U-Net decoder/up-block self-attention。
 
-### 3.11. 残差连接
 
-Attention 输出通常不会直接替换整个特征，而是通过残差连接更新：
 
-$$
-X_{\mathrm{out}}
-=
-X_{\mathrm{in}}
-+
-\operatorname{Proj}
-\left(
-\operatorname{Attn}(Q,K,V)
-\right).
-$$
 
-残差连接意味着：
-
-1. 原始特征仍然保留。
-2. Attention 只是增加一个修正项。
-3. 即使 attention 被编辑，目标图像的其他信息仍可通过残差路径传播。
-
-这也解释了为什么 O2MAG 的掩码控制不是像最终像素复制粘贴那样绝对。即使某个 attention 输出在掩码外使用正常分支，卷积、残差和其他层仍可能发生一定跨区域影响。
-
-### 3.12. CLIP 文本编码器、tokenizer 与 token
+### CLIP 文本编码器、tokenizer 与 token
 
 文本提示不能直接作为字符串输入 U-Net。
 
-首先，tokenizer 将字符串切成 token。例如：
-
-> A photo of a hazelnut with a crack
-
-可能被分解为若干词或子词单元。实际 token 化取决于 CLIP tokenizer，并不保证一个英文单词只对应一个 token。
+首先，tokenizer 将字符串切成 token。
 
 然后，CLIP 文本编码器将 token 序列转换为：
 
