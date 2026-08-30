@@ -10,5 +10,10 @@
   "obsidian-excalidraw-plugin",
   "dataview",
   "flexplorer",
-  "obsidian-git"
+  "obsidian-git",
+  "advanced-canvas",
+  "templater-obsidian",
+  "better-export-pdf",
+  "pdf-plus",
+  "obsidian-tasks-plugin"
 ]

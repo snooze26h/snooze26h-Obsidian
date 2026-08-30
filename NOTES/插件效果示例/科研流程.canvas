@@ -10,5 +10,9 @@
 		{"id":"question-to-project","fromNode":"question","fromSide":"right","toNode":"project","toSide":"left","label":"做实验"},
 		{"id":"paper-to-result","fromNode":"paper","fromSide":"right","toNode":"result","toSide":"left","label":"方法依据"},
 		{"id":"project-to-result","fromNode":"project","fromSide":"right","toNode":"result","toSide":"left","label":"实验数据"}
-	]
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }
